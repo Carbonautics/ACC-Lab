@@ -8,13 +8,18 @@ float divide(float, float);
 void main()
 {
     float p,q, ans;
-    unsigned char c;
-    float *ptrf(float,float);
+    char c;
+    float (*ptrf)(float,float); //declaring the pointer to be assinged corresponding function
 
+    //Take number inputs
     printf("Enter the two numbers: ");
     scanf("%f %f", &p, &q);
+    
+    //Take operator input (+, - , * , /)
     printf("Enter the operator: ");
-    scanf("%c", &c);
+    scanf(" %c", &c);
+
+    //Switch to the corresponding function depending on what character input users provides
     switch (c){
         case '+': ptrf = add;
                 break;
@@ -27,6 +32,8 @@ void main()
         default: ptrf = add;
                 break;
     }
+
+    //assign output to ans
     ans = ptrf(p,q);
     display(ans);
 }
