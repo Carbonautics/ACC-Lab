@@ -1,0 +1,9 @@
+Step 1: START
+Step 2: Declare required variables and also a function pointer 'ptrf'
+Step 3: Get two integers 'p' & 'q', as user input
+Step 4: Get a user input character 'operator'; of operation to be performed on the 2 numbers
+Step 5: Using switch function, assign function pointer 'ptrf' the function corresponding to the input operator.
+        If the user gives an invalid operator, then display appropriate message and wait for valid input
+Step 6: Assign 'ans' variable the output of the function assigned to 'ptrf' with p & q as parameters to the function.
+Step 7: Call the display function with 'ans' parameter to display the result after performing the required operation.
+Step 8: STOP
