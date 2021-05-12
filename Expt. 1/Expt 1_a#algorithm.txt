@@ -1,7 +1,7 @@
 Step 1: START
-Step 2: Get two integers p & q, as user input
-Step 3: Get a user input character 'operator'; of operation to be performed on the 2 numbers
-Step 4: Using switch function, assign 'ans' variable, the result of the function corresponding to the operator. 
+Step 2: Get two integers as user input
+Step 3: Get a user input character of operation to be performed on the 2 numbers
+Step 4: Using switch function, store the result of the function corresponding to the operator in a variable. 
         If the user inputs an invalid operator, then display appropriate message and wait for valid input
-Step 5: Call the display function with 'ans' parameter to display the result after performing the required operation.
+Step 5: Call the display function with the result variable as parameter to display the result after performing the required operation.
 Step 6: STOP
