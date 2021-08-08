@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 //Function declarations
 void display(float);
 float add(float, float);

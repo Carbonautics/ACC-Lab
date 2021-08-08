@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
     int number,quantity;
     char name[20], choice;
@@ -39,4 +39,5 @@ void main()
         default: printf("\nPlease enter a valid choice (y/n) for yes/no ");
                  goto choice_input;  
     }
+    return 0;
 }
